@@ -1,0 +1,130 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0; 
+}
+
+header{
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.37vw;
+    box-sizing: border-box;
+}
+header a{
+    color: white;
+}
+p{
+    margin: 0;
+}
+
+.logo{
+    font-weight: 600;
+}
+.start{
+    background-color: rgb(196, 194, 194);
+    padding: 0 11vw 3.67vw;
+}
+button{
+    border: none;
+    padding: 0.75vw 1vw;
+    border-radius: 0.25vw;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.47vw 0;
+}
+nav a{
+    margin-right: 1.47vw;
+}
+.share{
+    display: flex;
+    align-items: center;
+}
+.share p{
+    line-height: 150%;
+}
+/* #blok3-1{
+    margin-top: 50px;
+} */
+#big-img{
+    width: 33%;
+    margin-left: 8.8vw;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+.payment img{
+    width: 1.47vw;
+    margin-right: 0.79vw;
+}
+li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.45vw;
+    font-size: 1.1vw;
+    font-weight: 500;
+}
+input{
+    padding: 0.75vw;
+    border-radius: 0.35vw;
+    margin-right: 0.6vw;
+    border: black 1px solid;
+}
+#logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3vw 11vw;
+}
+#logo img{
+    height: 1.8vw;
+    padding: none;
+}
+.mail{
+    padding-top: 0.7vw;
+}
+#secure{
+    height: 25vw;
+    display: flex;
+    align-items: center;
+    border-radius: 1vw;
+    background-color: rgb(196, 194, 194);
+    margin: 0 11vw 5vw;
+    /*padding: 0 5vw 0 7vw;*/
+    box-sizing: border-box;
+}
+#text{
+    margin-left: 6vw;
+    line-height: 150%;
+}
+h1{
+  font-weight: 700;
+  line-height: 100%; 
+  margin: 0;
+}
+#secure a{
+    color: black;
+}
+#phone{
+    height: 100%;
+    margin: 0 1vw
+}
+a{
+    font-weight: 700;
+}
+#text p{ 
+    margin: 2vw 0;
+}
+#last{
+    display: flex; 
+}
